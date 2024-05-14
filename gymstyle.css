@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.topcontainer {
+    padding-top: 35px;
+    width: 100%;
+    height: 1000px;
+    grid-column: span 4;
+    background-image: url(full-shot-woman-with-headphones.jpg);
+    background-color: rgba(255, 255, 255, 0.85);
+    background-blend-mode: lighten;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header {
+    grid-column: span 4;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.item2 li {
+    display: inline-block;
+}
+
+.item2 a {
+    text-decoration: none;
+    margin: 0 10;
+    padding: 0 10;
+    color: rgb(37, 37, 37);
+}
+
+.item1 {
+    display: inline-block;
+}
+
+.item1 img {
+    margin-left: 80;
+    border-radius: 10px;
+}
+
+.item3 {
+    margin-right: 50;
+    display: block;
+}
+
+.item3 i {
+    padding: 0 10;
+    cursor: pointer;
+}
+
+.contenttop {
+    margin: 195 231;
+}
+
+.contenttop h1 {
+    font-size: 120px;
+    letter-spacing: 55;
+    font-weight: 600;
+    color: #af3737;
+}
+
+.contenttop h3 {
+    letter-spacing: 10;
+    font-weight: 500;
+}
+
+.contenttop button {
+    background-color: rgb(0, 164, 85);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    border-radius: 50px;
+    width: 190px;
+    padding: 20 30;
+    border: none;
+    font-weight: 900;
+    cursor: pointer;
+
+}
+
+.container2 {
+    background-image: url(h6-bckr-1.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    grid-column: span 4;
+    padding-top: 80;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.container2 .item1 {
+    width: 100%;
+    display: inline;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.container2 .item1 h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 20;
+    padding: 55 0;
+    font-weight: 600;
+    color: rgb(0, 164, 85);
+}
+
+.container2 .item1 h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 10;
+    color: rgb(63, 63, 63);
+}
+
+.container2 .item2 {
+    width: 100%;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container2 .item2 .card1 {
+    width: 290px;
+    height: auto;
+
+    padding: 10 20;
+    align-items: center;
+    overflow: hidden;
+    margin: 0 25;
+}
+
+.container2 .item2 .card1 h3 {
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 35 0;
+    letter-spacing: 10;
+    color: #af3737;
+}
+
+.container2 .item2 .card1 h6 {
+    font-weight: 500;
+    color: rgb(82, 82, 82);
+}
+
+.container2 .item2 .card1 img {
+    cursor: pointer;
+
+}
+
+.container3 {
+    width: 100%;
+    height: 500px;
+    grid-column: span 4;
+    background-color: antiquewhite;
+    display: flex;
+    margin-top: 15;
+}
+
+.container3,
+.row1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+
+
+}
+
+.card10 {
+    width: 483;
+    height: auto;
+    background-image: url(cards/h6-box-img-1.jpg);
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+    background-size: cover;
+}
+
+.txt1 {
+    width: 100%;
+    height: auto;
+    display: inline;
+}
+
+.card10 h4 {
+    font-weight: 600;
+    font-size: 26px;
+    color: white;
+    padding: 10 0;
+}
+
+.card10 h6 {
+    font-size: 15;
+    letter-spacing: 3;
+    font-weight: 400;
+}
+
+.card12 {
+    width: 483;
+    height: auto;
+    background-image: url(cards/h6-box-img-2.jpg);
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    padding-left: 35;
+}
+
+.card12 h6 {
+    color: rgb(0, 164, 85);
+    padding: 5 0;
+    font-size: 17;
+    font-weight: 600;
+}
+
+.card12 h5 {
+    color: rgb(63, 63, 63);
+    padding: 10 0;
+    font-size: 22;
+    letter-spacing: 3;
+}
+
+.card12 button {
+    background-color: rgb(0, 164, 85);
+    border: none;
+    border-radius: 50px;
+    width: 150;
+    height: 35px;
+    margin-top: 10;
+    color: white;
+}
+
+.card13 {
+    width: 965;
+    height: 267;
+    background-image: url(cards/h6-box-img-3.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    display: inline;
+    padding-top: 190;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.card13 h6,
+h5 {
+    padding-left: 35;
+}
+
+.card13 h6:hover {
+    font-size: 22px;
+}
+
+.card13 h5 {
+    color: rgb(63, 63, 63);
+    padding-top: 20;
+    font-size: 22;
+    letter-spacing: 3;
+}
+
+.card13 h6 {
+
+    transition: 0.8s;
+    color: rgb(0, 164, 85);
+    padding-top: 5;
+    font-size: 17;
+    font-weight: 600;
+}
+.container4{
+    background-image: url(h6-parallax-1.jpg);
+    width: 100%;
+    height: 400px;
+    grid-column: span 4;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 15 0;
+    display: flex;
+    align-items: center;
+}
+.testimonial{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    align-content: center;
+    
+}
+.testimonial img{
+    padding-bottom: 35px;
+  width: 100;
+  transition: 0.6s;
+  cursor: pointer;
+}
+.testimonial img:hover{
+    width: 110px;
+}
+.testimonial h5, p{
+    color: white;
+    text-align: center;
+    padding: 10 0;
+}
+.testimonial p{
+    font-size: 25;
+    font-weight: 400;
+}
+.testimonial h5{
+    letter-spacing: 4;
+}
